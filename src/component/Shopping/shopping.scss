@@ -1,0 +1,52 @@
+.box {
+  border: 1px solid gray;
+  margin: 15px 0;
+  border-radius: 2px;
+  padding: 5px;
+}
+.box ul {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+.box ul li {
+  margin-right: 50px;
+  margin-left: 50px;
+  list-style: none;
+}
+.prc {
+  margin-top: 5px;
+}
+button {
+  padding: 5px 8px;
+  margin: 5px 0;
+  margin-right: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.msg {
+  margin: 10px 0;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid green;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 18px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+h3 {
+  font-size: 18px;
+}

@@ -1,10 +1,15 @@
 import React from "react";
 import Home from "./component/Home";
+import MyThemeContextProvider from "./context/MyThemeContext";
 
-const App = () =>{
-    return (<div>
-        <h1>Hello React</h1>
+const App = () => {
+  return (
+    <div>
+      <MyThemeContextProvider>
         <Home />
-    </div>)
-}
+      </MyThemeContextProvider>
+    </div>
+  );
+};
+
 export default App;

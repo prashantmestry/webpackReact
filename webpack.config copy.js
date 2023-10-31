@@ -28,17 +28,10 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(jpg|png|svg)$/i,
-        loader: "file-loader",
-        options: {
-          outputPath: "images",
-        },
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: "url-loader",
+        options: { limit: false },
       },
-      //   {
-      //     test: /\.(png|woff|woff2|eot|ttf|svg)$/,
-      //     loader: "url-loader",
-      //     options: { limit: false },
-      //   },
     ],
   },
 };
